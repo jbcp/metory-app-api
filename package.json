@@ -1,0 +1,29 @@
+{
+  "name": "crcp_app",
+  "version": "0.1.0",
+  "description": "CRCP REST Api for APP",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JBCP",
+  "license": "ISC",
+  "dependencies": {
+    "adler32": "^0.1.7",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.5",
+    "date-utils": "^1.2.21",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.1.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
